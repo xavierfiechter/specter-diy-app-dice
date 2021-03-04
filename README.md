@@ -3,6 +3,7 @@
 How to use this app?
 
 - Copy `dice` directory into `src/apps/` directory.
-- Append `dice` to `src/apps/__init__.py`'s `__all__` list.
+- Register `dice` by appending it to `src/apps/__init__.py`'s `__all__` list.
 - Build using `make simulate`. 
+- Roll the dices.
 
