@@ -1,4 +1,4 @@
-from app import BaseApp, AppError
+from app import BaseApp 
 from gui.screens import Menu
 from .screen import DiceRollScreen
 from .utils import roll_dice
@@ -53,6 +53,4 @@ class DiceApp(BaseApp):
                     )
                     roll = await show_screen(scr)
                 menuitem = await show_screen(Menu(buttons, last=(255, None)))
-            else:
-                raise AppError("Not implemented L58")
-                menuitem = 255  # break
+            
